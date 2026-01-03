@@ -246,10 +246,10 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:link",
 			children: [
 				{
-					name: "GitHub",
-					url: "https://github.com/matsuzaka-yuki/Mizuki",
+					name: "QQ",
+					url: "https://qm.qq.com/q/VdQo2uvRKy",
 					external: true,
-					icon: "fa6-brands:github",
+					icon: "fa6-brands:QQ",
 				},
 				{
 					name: "Bilibili",
