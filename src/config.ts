@@ -246,10 +246,10 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:link",
 			children: [
 				{
-					name: "QQ",
-					url: "https://qm.qq.com/q/VdQo2uvRKy",
+					name: "Github",
+					url: "",
 					external: true,
-					icon: "fa6-brands:QQ",
+					icon: "fa6-brands:",
 				},
 				{
 					name: "Bilibili",
