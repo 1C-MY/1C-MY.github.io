@@ -138,7 +138,7 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "CS2资源站", // 主页横幅主标题
+			title: "画心CS2资源站", // 主页横幅主标题
 
 			subtitle: [
 				"memesense.gg",
