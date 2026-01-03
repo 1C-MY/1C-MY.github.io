@@ -49,6 +49,8 @@ jobs:
       # 4. 安装依赖
       - name: Install dependencies
         run: pnpm install
+        env:
+          npm_config_ignore_scripts: true
 
       # 5. 类型检查
       - name: Type check
@@ -121,6 +123,8 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
+        env:
+          npm_config_ignore_scripts: true
 
       - name: Build preview
         run: pnpm build
