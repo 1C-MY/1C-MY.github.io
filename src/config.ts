@@ -249,7 +249,7 @@ export const navBarConfig: NavBarConfig = {
 					name: "GitHub",
 					url: "https://github.com/matsuzaka-yuki/Mizuki",
 					external: true,
-					icon: "fa6-brands:GitHub",
+					icon: "fa6-brands:github",
 				},
 				{
 					name: "Bilibili",
