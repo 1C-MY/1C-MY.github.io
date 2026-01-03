@@ -141,11 +141,11 @@ export const siteConfig: SiteConfig = {
 			title: "画心CS2资源站", // 主页横幅主标题
 
 			subtitle: [
-				"特別なことはないけど、君がいると十分です",
-				"今でもあなたは私の光",
-				"君ってさ、知らないうちに私の毎日になってたよ",
-				"君と話すと、なんか毎日がちょっと楽しくなるんだ",
-				"今日はなんでもない日。でも、ちょっとだけいい日",
+				"memesense.gg",
+				"fatality.win",
+				"neverlose.cc",
+				"nixwaer.cc",
+				"gamesense.pub",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
