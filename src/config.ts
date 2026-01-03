@@ -19,13 +19,13 @@ import { LinkPreset } from "./types/config";
 // 移除i18n导入以避免循环依赖
 
 // 定义站点语言
-const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
+const SITE_LANG = "en"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 const SITE_TIMEZONE = 8; //设置你的网站时区 from -12 to 12 default in UTC+8
 export const siteConfig: SiteConfig = {
-	title: "画心",
-	subtitle: "CS2",
-	siteURL: "https://xn--15tu19b.shop/", // 请替换为你的站点URL，以斜杠结尾
-	siteStartDate: "2026-01-03", // 站点开始运行日期，用于站点统计组件计算运行天数
+	title: "Mizuki",
+	subtitle: "One demo website",
+	siteURL: "https://mizuki.mysqil.com/", // 请替换为你的站点URL，以斜杠结尾
+	siteStartDate: "2025-01-01", // 站点开始运行日期，用于站点统计组件计算运行天数
 
 	timeZone: SITE_TIMEZONE,
 
@@ -51,7 +51,7 @@ export const siteConfig: SiteConfig = {
 	// 顶栏标题配置
 	navbarTitle: {
 		// 顶栏标题文本
-		text: "画心",
+		text: "MizukiUI",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
 		icon: "assets/home/home.png",
 	},
@@ -138,14 +138,14 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "画心CS2资源站", // 主页横幅主标题
+			title: "美しいミズキ", // 主页横幅主标题
 
 			subtitle: [
-				"memesense.gg",
-				"fatality.win",
-				"neverlose.cc",
-				"nixwaer.cc",
-				"gamesense.pub",
+				"特別なことはないけど、君がいると十分です",
+				"今でもあなたは私の光",
+				"君ってさ、知らないうちに私の毎日になってたよ",
+				"君と話すと、なんか毎日がちょっと楽しくなるんだ",
+				"今日はなんでもない日。でも、ちょっとだけいい日",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
@@ -253,7 +253,7 @@ export const navBarConfig: NavBarConfig = {
 				},
 				{
 					name: "Bilibili",
-					url: "https://space.bilibili.com/2031027910",
+					url: "https://space.bilibili.com/701864046",
 					external: true,
 					icon: "fa6-brands:bilibili",
 				},
@@ -347,7 +347,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Bilibli",
 			icon: "fa6-brands:bilibili",
-			url: "https://space.bilibili.com/2031027910",
+			url: "https://space.bilibili.com/701864046",
 		},
 		{
 			name: "Gitee",
@@ -425,8 +425,8 @@ export const shareConfig: ShareConfig = {
 };
 
 export const announcementConfig: AnnouncementConfig = {
-	title: "公告", // 公告标题
-	content: "欢迎大家来到画心资源站", // 公告内容
+	title: "Announcement", // 公告标题
+	content: "Welcome to my blog! This is a sample announcement.", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
