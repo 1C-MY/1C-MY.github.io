@@ -53,7 +53,7 @@ export const siteConfig: SiteConfig = {
 		// 顶栏标题文本
 		text: "画心",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
-		icon: "public/assets/home/home.png",
+		icon: "assets/home/home.png",
 	},
 
 	bangumi: {
@@ -138,7 +138,7 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "画心CS资源站", // 主页横幅主标题
+			title: "画心CS2资源站", // 主页横幅主标题
 
 			subtitle: [
 				"特別なことはないけど、君がいると十分です",
