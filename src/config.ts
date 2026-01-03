@@ -246,10 +246,10 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:link",
 			children: [
 				{
-					name: "Github",
-					url: "",
+					name: "GitHub",
+					url: "https://github.com/matsuzaka-yuki/Mizuki",
 					external: true,
-					icon: "fa6-brands:",
+					icon: "fa6-brands:GitHub",
 				},
 				{
 					name: "Bilibili",
