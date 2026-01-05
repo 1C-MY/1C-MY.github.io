@@ -23,7 +23,7 @@ const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 const SITE_TIMEZONE = 8; //设置你的网站时区 from -12 to 12 default in UTC+8
 export const siteConfig: SiteConfig = {
 	title: "画心",
-	subtitle: "CS2",
+	subtitle: "111",
 	siteURL: "https://xn--15tu19b.shop/", // 请替换为你的站点URL，以斜杠结尾
 	siteStartDate: "2026-01-03", // 站点开始运行日期，用于站点统计组件计算运行天数
 
@@ -138,14 +138,14 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "画心CS2资源站", // 主页横幅主标题
+			title: "画心", // 主页横幅主标题
 
 			subtitle: [
-				"memesense.gg",
-				"fatality.win",
-				"neverlose.cc",
-				"nixwaer.cc",
-				"gamesense.pub",
+				"",
+				"",
+				"",
+				"",
+				"",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
